@@ -130,7 +130,7 @@ function qum_general_settings_content() {
 				<?php _e( '"Admin Approval" Feature:', 'quickusermanager' ); ?>
 			</th>
 			<td>
-				<p><em>	<?php printf( __( 'You decide who is a user on your website. Get notified via email or approve multiple users at once from the WordPress UI. Enable Admin Approval by upgrading to %1$sPRO versions%2$s.', 'quickusermanager' ),'<a href="http://plugin.crackcodex.com/wordpress-quick-user-manager/?utm_source=wpbackend&utm_medium=clientsite&utm_content=general-settings-link&utm_campaign=QUMFree">', '</a>' )?></em></p>
+				<p><em>	<?php printf( __( 'You decide who is a user on your website. Get notified via email or approve multiple users at once from the WordPress UI. Enable Admin Approval by upgrading to %1$sPRO versions%2$s.', 'quickusermanager' ),'<a href="http://plugin.crackcodex.com/quick-user-manager/?utm_source=wpbackend&utm_medium=clientsite&utm_content=general-settings-link&utm_campaign=QUMFree">', '</a>' )?></em></p>
 			</td>
 		</tr>
 	<?php } ?>

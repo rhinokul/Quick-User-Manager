@@ -78,7 +78,7 @@ function qum_basic_info_content() {
 			    <p><a href="admin.php?page=quick-user-manager-modules" class="button"><?php _e( 'Enable your modules', 'quickusermanager' ); ?></a></p>
             <?php endif; ?>
 			<?php if ($version == 'Free'){ ?>
-				<p><a href="http://plugin.crackcodex.com/wordpress-quick-user-manager/?utm_source=wpbackend&utm_medium=clientsite&utm_content=basicinfo-modules&utm_campaign=QUMFree" class="qum-button-free"><?php _e( 'Find out more about PRO Modules', 'quickusermanager' ); ?></a></p>
+				<p><a href="http://plugin.crackcodex.com/quick-user-manager/?utm_source=wpbackend&utm_medium=clientsite&utm_content=basicinfo-modules&utm_campaign=QUMFree" class="qum-button-free"><?php _e( 'Find out more about PRO Modules', 'quickusermanager' ); ?></a></p>
 			<?php }?>
 		</div>
 		<div class="qum-row qum-3-col">
@@ -108,7 +108,7 @@ function qum_basic_info_content() {
 		<div>
 			<h3>Extra Notes</h3>
 			<ul>
-				<li><?php printf( __( '* only available in the %1$sPro version%2$s.', 'quickusermanager' ), '<a href="http://plugin.crackcodex.com/wordpress-quick-user-manager/?utm_source=wpbackend&utm_medium=clientsite&utm_content=basicinfo-extranotes&utm_campaign=QUM'.$version.'" target="_blank">', '</a>' );?></li>
+				<li><?php printf( __( '* only available in the %1$sPro version%2$s.', 'quickusermanager' ), '<a href="http://plugin.crackcodex.com/quick-user-manager/?utm_source=wpbackend&utm_medium=clientsite&utm_content=basicinfo-extranotes&utm_campaign=QUM'.$version.'" target="_blank">', '</a>' );?></li>
 			</ul>
 		</div>
 	</div>

@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Quick User Manager
-Plugin URI: http://plugin.crackcodex.com/wordpress-quick-user-manager/
+Plugin URI: http://plugin.crackcodex.com/quick-user-manager/
 Description: Login, registration and edit profile shortcodes for the front-end. Also you can chose what fields should be displayed or add new (custom) ones both in the front-end and in the dashboard.
 Version: 1.0
 Author: CrackCodex, Delower Hossain Rhine

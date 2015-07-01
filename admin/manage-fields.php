@@ -67,7 +67,7 @@ function qum_manage_fields_submenu(){
 	//Free to Pro call to action on Manage Fields page
 	$field_description = __('Choose one of the supported field types','quickusermanager');
 	if( QUICK_USER_MANAGER == 'Quick User Manager Free' ) {
-		$field_description .= sprintf( __('. Extra Field Types are available in <a href="%s">PRO version</a>.' , 'quickusermanager'), esc_url( 'http://plugin.crackcodex.com/wordpress-quick-user-manager/?utm_source=wpbackend&utm_medium=clientsite&utm_content=manage-fields-link&utm_campaign=QUMFree' ) );
+		$field_description .= sprintf( __('. Extra Field Types are available in <a href="%s">PRO version</a>.' , 'quickusermanager'), esc_url( 'http://plugin.crackcodex.com/quick-user-manager/?utm_source=wpbackend&utm_medium=clientsite&utm_content=manage-fields-link&utm_campaign=QUMFree' ) );
 	}
 
 

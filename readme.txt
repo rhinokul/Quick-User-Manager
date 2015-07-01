@@ -3,7 +3,7 @@
 Contributors: crackcodex, rhinokul
 
 
-Donate link: http://plugin.crackcodex.com/wordpress-quick-user-manager/
+Donate link: http://plugin.crackcodex.com/quick-user-manager/
 
 Tags: registration, user profile, user registration, custom field registration, customize profile, user fields, extra user fields, builder, Quick User Manager, custom user profile, user profile page, edit profile, custom registration, custom registration form, custom registration page, registration page, user custom fields, user listing, front-end user listing, user login, user registration form, front-end login, login redirect, login widget, front-end register, front-end registration, front-end edit profile, front-end user registration, custom redirects, user email, avatar upload, email confirmation, user approval, customize registration email, minimum password length, minimum password strength, password strength meter, multiple registration forms, register, register form, email to the registered user(s), email to the users group, member directory
 
@@ -50,7 +50,7 @@ Users with administrator rights have access to the following features:
 
 **Quick User Manager PRO**
 
-The [Pro version](http://plugin.crackcodex.com/wordpress-quick-user-manager/?utm_source=wp.org&utm_medium=plugin-description-page&utm_campaign=QUMFree) has the following extra features:
+The [Pro version](http://plugin.crackcodex.com/quick-user-manager/?utm_source=wp.org&utm_medium=plugin-description-page&utm_campaign=QUMFree) has the following extra features:
 
 * Create Extra User Fields (Heading, Input, Hidden-Input, Checkbox, Agree to Terms Checkbox, Radio Buttons, DatePicker, Textareas, WYSIWYG, reCAPTCHA, Upload fields, Selects, User Role Select, Country Selects, Timezone selects, Avatar Upload)
 * Add Avatar Upload for users
@@ -66,7 +66,7 @@ The [Pro version](http://plugin.crackcodex.com/wordpress-quick-user-manager/?utm
 * Access to support forums and documentation
 * 1 Year of Updates / Priority Support
 
-[Find out more about Quick User Manager PRO](http://plugin.crackcodex.com/wordpress-quick-user-manager/?utm_source=wp.org&utm_medium=plugin-description-page&utm_campaign=QUMFree)
+[Find out more about Quick User Manager PRO](http://plugin.crackcodex.com/quick-user-manager/?utm_source=wp.org&utm_medium=plugin-description-page&utm_campaign=QUMFree)
 
 
 = Quick User Manager in your Language =
