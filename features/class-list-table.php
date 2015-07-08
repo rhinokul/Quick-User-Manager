@@ -5,7 +5,7 @@
  *
  * @package WordPress
  * @subpackage List_Table
- * @since 3.1.0
+ * @since 1.0.0
  * @access private
  */
 class qum_WP_List_Table {
@@ -13,7 +13,7 @@ class qum_WP_List_Table {
 	/**
 	 * The current list of items
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @var array
 	 * @access protected
 	 */
@@ -22,7 +22,7 @@ class qum_WP_List_Table {
 	/**
 	 * Various information about the current table
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @var array
 	 * @access private
 	 */
@@ -31,7 +31,7 @@ class qum_WP_List_Table {
 	/**
 	 * Various information needed for displaying the pagination
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @var array
 	 * @access private
 	 */
@@ -40,7 +40,7 @@ class qum_WP_List_Table {
 	/**
 	 * The current screen
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @var object
 	 * @access protected
 	 */
@@ -49,7 +49,7 @@ class qum_WP_List_Table {
 	/**
 	 * Cached bulk actions
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @var array
 	 * @access private
 	 */
@@ -58,7 +58,7 @@ class qum_WP_List_Table {
 	/**
 	 * Cached pagination output
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @var string
 	 * @access private
 	 */
@@ -100,7 +100,7 @@ class qum_WP_List_Table {
 	 * Checks the current user's permissions
 	 * @uses wp_die()
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access public
 	 * @abstract
 	 */
@@ -112,7 +112,7 @@ class qum_WP_List_Table {
 	 * Prepares the list of items for displaying.
 	 * @uses WP_List_Table::set_pagination_args()
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access public
 	 * @abstract
 	 */
@@ -148,7 +148,7 @@ class qum_WP_List_Table {
 	/**
 	 * Access the pagination args
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access public
 	 *
 	 * @param string $key
@@ -165,7 +165,7 @@ class qum_WP_List_Table {
 	/**
 	 * Whether the table has items to display or not
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access public
 	 *
 	 * @return bool
@@ -177,7 +177,7 @@ class qum_WP_List_Table {
 	/**
 	 * Message to be displayed when there are no items
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access public
 	 */
 	function no_items() {
@@ -187,7 +187,7 @@ class qum_WP_List_Table {
 	/**
 	 * Display the search box.
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access public
 	 *
 	 * @param string $text The search button text
@@ -220,7 +220,7 @@ class qum_WP_List_Table {
 	 * Get an associative array ( id => link ) with the list
 	 * of views available on this table.
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access protected
 	 *
 	 * @return array
@@ -232,7 +232,7 @@ class qum_WP_List_Table {
 	/**
 	 * Display the list of views available on this table.
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access public
 	 */
 	function views() {
@@ -264,7 +264,7 @@ class qum_WP_List_Table {
 	 * Get an associative array ( option_name => option_title ) with the list
 	 * of bulk actions available on this table.
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access protected
 	 *
 	 * @return array
@@ -276,7 +276,7 @@ class qum_WP_List_Table {
 	/**
 	 * Display the bulk actions dropdown.
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access public
 	 */
 	function bulk_actions() {
@@ -322,7 +322,7 @@ class qum_WP_List_Table {
 	/**
 	 * Get the current action selected from the bulk actions dropdown.
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access public
 	 *
 	 * @return string|bool The action name or False if no action was selected
@@ -340,7 +340,7 @@ class qum_WP_List_Table {
 	/**
 	 * Generate row actions div
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access protected
 	 *
 	 * @param array $actions The list of actions
@@ -368,7 +368,7 @@ class qum_WP_List_Table {
 	/**
 	 * Display a monthly dropdown for filtering items
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access protected
 	 */
 	function months_dropdown( $post_type ) {
@@ -423,7 +423,7 @@ class qum_WP_List_Table {
 	/**
 	 * Display a view switcher
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access protected
 	 */
 	function view_switcher( $current_mode ) {
@@ -448,7 +448,7 @@ class qum_WP_List_Table {
 	/**
 	 * Display a comment count bubble
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access protected
 	 *
 	 * @param int $post_id
@@ -469,7 +469,7 @@ class qum_WP_List_Table {
 	/**
 	 * Get the current page number
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access protected
 	 *
 	 * @return int
@@ -486,7 +486,7 @@ class qum_WP_List_Table {
 	/**
 	 * Get number of items to display on a single page
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access protected
 	 *
 	 * @return int
@@ -514,7 +514,7 @@ class qum_WP_List_Table {
 	/**
 	 * Display the pagination.
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access protected
 	 */
 	function pagination( $which ) {
@@ -598,7 +598,7 @@ class qum_WP_List_Table {
 	 * Get a list of columns. The format is:
 	 * 'internal-name' => 'Title'
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access protected
 	 * @abstract
 	 *
@@ -616,7 +616,7 @@ class qum_WP_List_Table {
 	 *
 	 * The second format will make the initial sorting order be descending
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access protected
 	 *
 	 * @return array
@@ -628,7 +628,7 @@ class qum_WP_List_Table {
 	/**
 	 * Get a list of all, hidden and sortable columns, with filter applied
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access protected
 	 *
 	 * @return array
@@ -673,7 +673,7 @@ class qum_WP_List_Table {
 	/**
 	 * Return number of visible columns
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access public
 	 *
 	 * @return int
@@ -687,7 +687,7 @@ class qum_WP_List_Table {
 	/**
 	 * Print column headers, accounting for hidden and sortable columns.
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access protected
 	 *
 	 * @param bool $with_id Whether to set the id attribute or not
@@ -757,7 +757,7 @@ class qum_WP_List_Table {
 	/**
 	 * Display the table
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access public
 	 */
 	function display() {
@@ -790,7 +790,7 @@ class qum_WP_List_Table {
 	/**
 	 * Get a list of CSS classes for the <table> tag
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access protected
 	 *
 	 * @return array
@@ -802,7 +802,7 @@ class qum_WP_List_Table {
 	/**
 	 * Generate the table navigation above or below the table
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access protected
 	 */
 	function display_tablenav( $which ) {
@@ -827,7 +827,7 @@ class qum_WP_List_Table {
 	/**
 	 * Extra controls to be displayed between bulk actions and pagination
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access protected
 	 */
 	function extra_tablenav( $which ) {}
@@ -835,7 +835,7 @@ class qum_WP_List_Table {
 	/**
 	 * Generate the <tbody> part of the table
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access protected
 	 */
 	function display_rows_or_placeholder() {
@@ -852,7 +852,7 @@ class qum_WP_List_Table {
 	/**
 	 * Generate the table rows
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access protected
 	 */
 	function display_rows() {
@@ -863,7 +863,7 @@ class qum_WP_List_Table {
 	/**
 	 * Generates content for a single row of the table
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access protected
 	 *
 	 * @param object $item The current item
@@ -880,7 +880,7 @@ class qum_WP_List_Table {
 	/**
 	 * Generates the columns for a single row of the table
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access protected
 	 *
 	 * @param object $item The current item
@@ -918,7 +918,7 @@ class qum_WP_List_Table {
 	/**
 	 * Handle an incoming ajax request (called from admin-ajax.php)
 	 *
-	 * @since 3.1.0
+	 * @since 1.0.0
 	 * @access public
 	 */
 	function ajax_response() {

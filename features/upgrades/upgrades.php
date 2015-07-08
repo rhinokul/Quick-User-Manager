@@ -4,13 +4,13 @@ include_once ( QUM_PLUGIN_DIR.'/features/upgrades/upgrades-functions.php' );
 /**
  * Function that assures backwards compatibility for all future versions, where this is needed
  *
- * @since v.1.3.13
+ * @since v.1.0.0
  *
  * @return void
  */
 function qum_update_patch(){
 	if ( !get_option( 'qum_version' ) ) {
-		add_option( 'qum_version', '1.3.13' );
+		add_option( 'qum_version', '1.0.0' );
 		
 		do_action( 'qum_set_initial_version_number', QUICK_USER_MANAGER_VERSION );
 	}
@@ -31,11 +31,11 @@ function qum_update_patch(){
 			if ( function_exists( 'qum_flush_rewrite_rules' ) )
 				qum_flush_rewrite_rules();
 			
-			qum_pro_hobbyist_v1_3_13();
+			qum_pro_hobbyist_v1_0_0();
 		}
 		
 		if ( QUICK_USER_MANAGER == 'Quick User Manager Pro' ){
-			qum_pro_v1_3_15();
+			qum_pro_v1_0_0();
 		}
 		
 		update_option( 'qum_version', QUICK_USER_MANAGER_VERSION );

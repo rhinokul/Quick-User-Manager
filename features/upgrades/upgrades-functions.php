@@ -1,12 +1,12 @@
 <?php
 /**
- * Function that adds backwards compatibility starting from v1.3.15 for the email customizer
+ * Function that adds backwards compatibility starting from v1.0 for the email customizer
  *
- * @since v.1.3.15
+ * @since v.1.0.0
  *
  * @return void
  */
-function qum_pro_v1_3_15(){
+function qum_pro_v1_0_0(){
 	$email_customizer_array = get_option( 'emailCustomizer', 'not_found' );
 
 	if ( $email_customizer_array != 'not_found' ){
@@ -42,13 +42,13 @@ function qum_copy_old_content ( $email_customizer_array, $new_email_customizer_a
 }
 
 /**
- * Function that adds backwards compatibility version 1.3.13 to version 1.3.14: we need to copy all data from item_options_values, and create the item_option_labels index for the checkbox, radio and select extra-fields, to reflect the front-end changes
+ * Function that adds backwards compatibility version 1.0.0 to version 1.3.14: we need to copy all data from item_options_values, and create the item_option_labels index for the checkbox, radio and select extra-fields, to reflect the front-end changes
  *
- * @since v.1.3.13
+ * @since v.1.0.0
  *
  * @return void
  */
-function qum_pro_hobbyist_v1_3_13(){
+function qum_pro_hobbyist_v1_0_0(){
 	$custom_fields = get_option( 'qum_custom_fields','not_found' );
 
 	if ( $custom_fields != 'not_found' ){
