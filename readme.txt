@@ -10,6 +10,8 @@ Tags: registration, user profile, user registration, custom field registration, 
 Requires at least: 3.1
 Tested up to: 4.2.2
 Stable tag: 1.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Simple to use profile plugin allowing front-end login, user registration and edit profile by using shortcodes.
  
@@ -19,7 +21,7 @@ Simple to use profile plugin allowing front-end login, user registration and edi
 
 It lets you customize your website by adding a front-end menu for all your users, 
 giving them a more flexible way to modify their user profile or register new users (front-end user registration). 
-Users with administrator rights can customize basic user fields or add custom user fields to the front-end forms.
+Users with administrator rights can customize basic user fields or add custom user fields to the front-end forms, email to the user(s) or users group.
 
 To achieve this, simply create a new page and give it an intuitive name(i.e. Edit Profile).
 Now all you need to do is add the following shortcode: [qum-edit-profile].
@@ -52,19 +54,11 @@ Users with administrator rights have access to the following features:
 
 The [Pro version](http://plugin.crackcodex.com/quick-user-manager/?utm_source=wp.org&utm_medium=plugin-description-page&utm_campaign=QUMFree) has the following extra features:
 
-* Create Extra User Fields (Heading, Input, Hidden-Input, Checkbox, Agree to Terms Checkbox, Radio Buttons, DatePicker, Textareas, WYSIWYG, reCAPTCHA, Upload fields, Selects, User Role Select, Country Selects, Timezone selects, Avatar Upload)
-* Add Avatar Upload for users
-* Front-end User Listing (fully customizable, sorting included)
+* User Listing (fully customizable, sorting included)
 * Create Multiple User Listings
 * Custom Redirects
-* Multiple Registration Forms (set up multiple registration forms with different profile fields for certain user roles)
-* Multiple Edit Profile Forms
 * Admin Approval
-* Email Customizer (Personalize all emails sent to your users or admins; customize default WordPress registration email)
-* reCAPTCHA on user registration form
-* Advanced Modules (e.g. custom redirects, user listing, multiple registration forms etc.)
-* Access to support forums and documentation
-* 1 Year of Updates / Priority Support
+* Email Customizer (Personalize all emails sent to your users, users group or admins; customize default WordPress registration email)
 
 [Find out more about Quick User Manager PRO](http://plugin.crackcodex.com/quick-user-manager/?utm_source=wp.org&utm_medium=plugin-description-page&utm_campaign=QUMFree)
 
@@ -94,7 +88,7 @@ This plugin adds/removes user fields in the front-end. Both default and extra pr
 
 = I can’t find a question similar to my issue; Where can I find support? =
 
-	For more information please visit http://www.cozmoslabs.com and check out the documentation section from Quick User Manager - front-end user registration plugin.
+	For more information please visit http://www.plugin.crackcodex.com/quick-user-manager and check out the documentation section from Quick User Manager - front-end user registration, login and edit profile, email to the registered user(s) and users group.
 
 
 == Screenshots ==
@@ -111,5 +105,5 @@ This plugin adds/removes user fields in the front-end. Both default and extra pr
 
 == Changelog ==
 = 1.0 =
-Added the posibility of displaying/hiding default WordPress information-fields, and to modify basic layout.
+Initial Release
 
